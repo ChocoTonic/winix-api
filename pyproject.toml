@@ -1,6 +1,6 @@
 [project]
 name = "winix-api"
-version = "0.1.0"
+version = "0.1.1"
 description = "Python client for interacting with Winix air purifier devices via the Winix IoT API. Provides authentication, device management, and control."
 readme = "README.md"
 requires-python = ">=3.10"
