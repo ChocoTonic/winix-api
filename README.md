@@ -1,5 +1,7 @@
 # winix-api
 
+[![PyPI downloads](https://img.shields.io/pypi/dm/winix-api.svg)](https://pypi.org/project/winix-api/)
+
 > **Credit:** Ported from [regaw-leinad/winix-api](https://github.com/regaw-leinad/winix-api).
 
 This library provides a Python client for interacting with Winix devices. It includes classes for authenticating with the Winix API (`WinixAuth`), managing a user account (`WinixAccount`), as well as interacting with Winix devices (`WinixAPI`).
