@@ -11,6 +11,20 @@ test:
 coverage:
 	$(ACTIVATE) $(PYTEST) $(COV_OPTS) $(TEST_PATH)
 
+
+build: clean
+	$(ACTIVATE) uv pip install --upgrade build
+	$(ACTIVATE) python -m build
+
+publish:
+	$(ACTIVATE) uv pip install --upgrade twine
+	$(ACTIVATE) python -m twine upload dist/*
+
+publish-test:
+	$(ACTIVATE) uv pip install --upgrade twine
+	$(ACTIVATE) python -m twine upload --repository testpypi dist/*
+
 clean:
 	rm -f coverage.xml
 	rm -rf .pytest_cache .coverage
+	rm -rf dist/
