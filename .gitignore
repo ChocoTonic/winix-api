@@ -1,6 +1,24 @@
-.vscode/settings.json
+# IDE/editor settings
+.vscode/
+
+# Environment/config
 .env
+
+# Python artifacts
 *.pyc
-*.txt
+__pycache__/
+
+# Build/dist outputs
+dist/
+*.whl
+*.tar.gz
+winix_api.egg-info/
+PKG-INFO
+
+# Coverage/test files
 .coverage
 coverage.xml
+.pytest_cache/
+
+# Misc
+*.txt
