@@ -4,7 +4,7 @@ This library provides a Python client for interacting with Winix devices. It inc
 
 ## Requirements
 
--   Python 3.8+
+-   Python 3.10
 -   [warrant-lite](https://pypi.org/project/warrant-lite/), [requests](https://pypi.org/project/requests/), [PyJWT](https://pypi.org/project/PyJWT/)
 
 ## Installation
